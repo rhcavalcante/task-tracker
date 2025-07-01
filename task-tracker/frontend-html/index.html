@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task Tracker</title>
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Task Tracker (HTML + JS)</h1>
+  <input type="text" id="title" placeholder="Título da tarefa" />
+  <select id="status">
+    <option value="pendente">Pendente</option>
+    <option value="andamento">Em andamento</option>
+    <option value="concluído">Concluído</option>
+  </select>
+  <button onclick="addTask()">Adicionar</button>
+  <ul id="taskList"></ul>
+</body>
+</html>
